@@ -54,11 +54,11 @@
 					<div id="education-text-container">
 						<h2 style="margin: 5px;">University of Illinois at Urbana-Champaign</h2>
 
-						<h2 style="margin: 5px">Bachelors in Science - Expected May 2024</h2>
-						<h3 style="margin-top: 5px;">Majors: Computer Science, Applied Mathematics</h3>
+						<h3 style="margin: 5px">Bachelors in Science - Expected May 2024</h3>
+						<h4 style="margin-top: 5px;">Majors: Computer Science, Applied Mathematics</h4>
 					</div>
 				</div>
-					<h2 class="section-header" style="text-align: left;"><strong>Relevant Coursework:</strong></h2>
+					<h2 class="section-header" style="padding-top: 20px; text-align: left;"><strong>Relevant Coursework:</strong></h2>
 					<div id="classes-container">
 						<div id="education-text-container">
 							<h3>Computer Science</h3>
@@ -87,12 +87,34 @@
 
 		</div>
 		<div id="projects">
-			<div class="content-container">
-				<h1 class="section-header" style="text-align: center;">Projects</h1>
-				<h3 style="text-align: center;">This is a space for the projects that I have worked on. As I complete
-					more, I will add them here!</h3>
-			</div>
+			<div class="content-container" style="width: 80%">
+				<h1 style="text-align: center;">Projects</h1>
+				<div  class="row" id="project-container">
+					<div id="project-card">
+						<img src="assets/img/projects/style.png" style="width: 350px; height: 350px;">
+						<h3>Style Share</h3>
+						<h5>TensorFlow, GCP, Cloud Firestore, Python, React, Redux</h5>
+						<h4>Developed a website where users can create 3D scenes and stylize them according to another image using a machine learning model. Users can then share their creations via a custom API and image sharing platforms created with Python and Google Cloud Storage Buckets and Firebase Firestore</h4>
+						<h4 style="padding-top: 5px;"><a href="https://style-transfer-client-ix3zc64heq-uc.a.run.app/">Check it out here!</a></h4>
+					</div>
 
+					<div id="project-card">
+						<img src="assets/img/projects/infected.png" style="width:350px; height: 350px;">
+						<h3>Infected and Detected</h3>
+						<h5>Tensorflow, Flask, MongoDB, OpenCV</h5>
+						<h4>Created an app to help farmers identify and mitigate crop disease and spread with disease classifcation using a machine learning model. Data from a camera and model is cleaned and stored in a MongoDB database, where information regarding crop health over time is served to a webapp using a custom Flask API.</h4>
+						<h4 style="padding-top: 3px;"><a href="https://devpost.com/software/infected-and-detected">HackIllinois 2022 Winner</a></h4>
+						<h4><a href="https://github.com/rbhog/hack-illinois-2022">Check out the code here.</a></h4>
+					</div>
+
+					<div id="project-card">
+						<img src="assets/img/projects/charhead.png" style="width: 350px; height: 350px;">
+						<h3>CharHead</h3>
+						<h5>C++, Catch2, LLVM</h5>
+						<h4>Designed an esoteric language defined by a small set of symbols. Created a just in time compiler using the LLVM Framework for program execution, along with a standard program interpreter written in C++. Implemented CLI interface to allow users to either input instructions directly, or choose a file to execute.</h4>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="footer">
 			<div class="links"><a class="footer-img" href="https://github.com/rkunds"><img
@@ -107,8 +129,6 @@
 			</div>
 		</div>
 </body>
-
-<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 <script src="assets/js/script.js"></script>
 

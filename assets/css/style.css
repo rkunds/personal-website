@@ -227,6 +227,41 @@ html {
     justify-content: center;
 }
 
+.row {
+    flex-direction: row;
+}
+
+#project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#project-card {
+    width: 350px;
+    height: 600px;
+    border: 2px solid #212227;
+    background-color: #F9F9F9;
+    box-shadow: 10px 10px #cbc0d3;
+    border-radius: 5px;
+    margin: 15px
+}
+
+#project-card h1, h2, h3, h4, h5{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0px;
+}
+
+#project-card h5, a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+
 #footer {
     background-color: #AB95DA;
     height: fit-content;
@@ -245,7 +280,7 @@ html {
     flex-direction: row;
 }
 
-#closing-caption h3{
+#closing-caption h3 {
     margin: 0;
 }
 .footer-img {
