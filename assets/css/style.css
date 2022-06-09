@@ -251,8 +251,8 @@ html {
 
 #project-card h1, h2, h3, h4, h5{
     padding-left: 4px;
-    padding-right: 4px;
     margin: 0px;
+    padding-right: 4px;
 }
 
 #project-card h5, a {
