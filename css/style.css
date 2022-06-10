@@ -28,6 +28,7 @@ html {
     float: right;
     color: #212227;
     text-decoration: none;
+    font-style: normal;
     font-size: 18px;
     position: relative;
 }
@@ -219,7 +220,7 @@ html {
 }
 
 #projects {
-    background-color: #BEAEE2;
+    background-color: #D8E1FF;
     height: fit-content;
     padding: 20px;
     display: flex;
@@ -241,7 +242,7 @@ html {
 
 #project-card {
     width: 350px;
-    height: 600px;
+    height: 610px;
     border: 2px solid #212227;
     background-color: #F9F9F9;
     box-shadow: 10px 10px #cbc0d3;
@@ -263,7 +264,7 @@ html {
 
 
 #footer {
-    background-color: #AB95DA;
+    background-color: #BE92A2;
     height: fit-content;
     padding: 20px;
 
